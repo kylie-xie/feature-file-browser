@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', 'Helvectica', 'Arial';
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.NavBar {
+  min-width: 18em;
+  height: 100%;
+  padding: 10px;
+  border-right: 1px solid lightgray;
+  overflow: auto;
+}
+
+.NavBar_section {
+  margin-bottom: 15px;
+}
+
+.NavBar_filterInput {
+  width: 100%;
+  height: 3em;
+  border: none;
+  border-bottom: 1px solid teal;
+  font-size: 16px;
+  outline: none;
+}
+
+.TagCloud_tag {
+  display: inline-block;
+  border: 1px solid #898989;
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 3px;
+  font-size: 13px;
+  font-family: monospace;
+}
+
+.NavFeatureList {
+  font-size: 13px;
+  word-break: break-all;
+}
+
+.Content {
+  padding: 10px;
+  overflow: auto;
+  height: 100%;
+}
